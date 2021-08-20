@@ -1,0 +1,16 @@
+@mixin important-text {
+    color: white;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+%important-text {
+    color: white;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text1, .text2 {
+    @include important-text;
+}
+
