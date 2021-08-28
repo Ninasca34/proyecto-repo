@@ -98,9 +98,7 @@ h1 {
 }
 /* Fin parte 1: Header */
 
-
 /* Parte 2: About Us */
-
 h2 {
     font-size: 2rem;
     text-align: center;
@@ -176,14 +174,12 @@ p {
     padding: 2rem;
     text-align: center;
 }
-
 /*.container-btn2 {
     
 }*/
 /* Fin parte 2: About Us */
 
-
-/* Parte 3: Living image */
+/* Parte 3: section living image */
 .container-living {
     background-image: url(../images/salon.jpg);
     min-height: 550px;
@@ -221,11 +217,9 @@ p {
 .container-btn1 {
     padding-left: 25px;
 }
-/* Fin parte 3: living image */
-
+/* Fin parte 3: section living image */
 
 /* Parte 4: Our Blog */
-
 .content-card {
     height: 330px;
     width: 55%;
@@ -281,7 +275,6 @@ p {
     transform:rotateY(180deg);
 }
 /* Fin parte 4: Our Blog */
-
 
 /* Footer */
 .footer-section {
