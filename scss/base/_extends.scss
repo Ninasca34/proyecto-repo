@@ -9,7 +9,7 @@
     border: none;
     color: white; 
     transition-duration: 0.4s; 
-    border-radius: 1rem;  
+    border-radius: 0.5rem;  
 }
 
 .btn1 {
@@ -54,9 +54,9 @@
 }
 
 .btn4 {
-    padding: 12px 80px;
-    margin-top: 0;
+    padding: 5px 0;
     margin-bottom: 50px;
+    width: 41%;
     @extend %propiedades;
     /* & */
     &:hover {
