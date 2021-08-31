@@ -223,60 +223,45 @@ p {
 /* Fin parte 3: section living image */
 
 /* Parte 4: Our Blog */
-.content-card {
-    height: 330px;
-    width: 55%;
+
+.multimedia-content {
+    background-color:  rgb(251, 247, 247);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.card {
+        padding: 10px 20px;
+        border: none;
+}
+.card-header {
+    padding: 1.5rem 1rem;
+    margin-bottom: 0px;
+    background-color: transparent;
+    border-bottom: 0px;
 }
 
-.comments {
-    margin: 27px;
-}
-
-.card-comments {
-    /*padding-top: 15px;*/
-    height: 100%;
+.comments-title {
     width: 100%;
-    position: relative;
-    transform-style: preserve-3d;  
-    transition: 2s;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 1.7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#cc9a1f
 }
 
-.name1 {
-    color: white;
-    font-size: 1.4rem;
-    font-style: italic;
-    display: flex;
-    justify-content: center;
+.blockquote-footer {
+    font-size: 1.3rem;
+    color: gray;
+    text-align: end;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-.name2 {
-    color: white;
-    font-size: 1.4rem;
-    font-style: italic;
-    display: flex;
-    justify-content: center;
+.blockquote>:last-child {
+    margin-bottom: 10px;
 }
 
-.card-comments:hover {
-    transform:rotateY(180deg);
-}
-
-.side {
-    height: 100%;
-    backface-visibility: hidden;
-    position: absolute;
-}
-
-.front {
-    background-color: rgb(180, 147, 84);
-    border-radius: 2rem;
-}
-
-.back {
-    background-color: rgb(206, 154, 58);
-    border-radius: 2rem;
-    transform:rotateY(180deg);
-}
 /* Fin parte 4: Our Blog */
 
 /* Footer */
