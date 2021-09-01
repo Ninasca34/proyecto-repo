@@ -220,44 +220,71 @@ p {
 
 /* Fin parte 3: section living image */
 /* Parte 4: Our Blog */
-.multimedia-content {
-  background-color: #fbf7f7;
+.content-card {
+  width: 100%;
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.card {
-  padding: 10px 20px;
-  border: none;
-}
-
-.card-header {
-  padding: 1.5rem 1rem;
-  margin-bottom: 0px;
-  background-color: transparent;
-  border-bottom: 0px;
+.content-multimedia > .multimedia-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 1rem;
+  justify-items: center;
 }
 
 .comments-title {
-  width: 100%;
-  text-align: center;
-  padding-top: 20px;
-  font-size: 1.7rem;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #cc9a1f;
+  color: #75501d;
+  text-shadow: 2px 2px 4px lightgrey;
 }
 
-.blockquote-footer {
-  font-size: 1.3rem;
-  color: gray;
-  text-align: end;
-  padding-top: 10px;
-  padding-bottom: 10px;
+.card-comments {
+  padding-top: 15px;
+  height: 60vh;
+  width: 65vh;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: 2s;
 }
 
-.blockquote > :last-child {
-  margin-bottom: 10px;
+.name1 {
+  color: white;
+  font-size: 1.4rem;
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+}
+
+.name2 {
+  color: white;
+  font-size: 1.4rem;
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+}
+
+.card-comments:hover {
+  transform: rotateY(180deg);
+}
+
+.side {
+  height: 100%;
+  backface-visibility: hidden;
+  position: absolute;
+}
+
+.front {
+  background-color: #b49354;
+  border-radius: 2rem;
+}
+
+.back {
+  background-color: #ce9a3a;
+  border-radius: 2rem;
+  transform: rotateY(180deg);
 }
 
 /* Fin parte 4: Our Blog */
@@ -395,6 +422,21 @@ p {
     margin: 0;
     padding: 2rem;
     text-align: center;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 900px) {
+  .content-multimedia {
+    padding: 2rem;
+    height: auto;
+  }
+
+  .content-multimedia > .multimedia-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
   }
 }
 /* CSS About Us */
@@ -583,6 +625,7 @@ textarea {
   color: white;
   font-size: 1rem;
   font-family: Arial, Helvetica, sans-serif;
+  padding: 28px;
 }
 
 /* Variables */
@@ -606,6 +649,57 @@ textarea {
 
 .footer-section {
   background-color: #504f4f;
+}
+
+.content-multimedia {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 0rem 5rem 0rem;
+}
+
+.content-multimedia > .multimedia-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 1rem;
+  justify-items: center;
+  padding-left: 30px;
+}
+
+.content-multimedia > .multimedia-content > .multimedia-card > figure {
+  max-height: 220px;
+  overflow: hidden;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  position: relative;
+}
+
+.content-multimedia > .multimedia-content > .multimedia-card > figure > img {
+  width: 100%;
+}
+
+.content-multimedia > .multimedia-content > .multimedia-card > figure > figcaption {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+}
+
+.content-multimedia > .multimedia-content > .multimedia-card > figure > figcaption > h3 {
+  color: white;
+  padding: 0.75rem;
+  font-size: 1.25rem;
+}
+
+.content-multimedia > .multimedia-content > .multimedia-card > p {
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: 1rem 0.75rem;
+  color: #666666;
+}
+
+.content-multimedia > .multimedia-content > .multimedia-card > a {
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */

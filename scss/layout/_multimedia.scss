@@ -1,3 +1,56 @@
+.content-multimedia {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 0rem 5rem 0rem;
+  }
+  
+  
+  .content-multimedia > .multimedia-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
+    justify-items: center;
+    padding-left: 30px;
+  }
+  
+  .content-multimedia > .multimedia-content > .multimedia-card > figure {
+    max-height: 220px;
+    overflow: hidden;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+    position: relative;
+  }
+  
+  .content-multimedia > .multimedia-content > .multimedia-card > figure > img {
+    width: 100%;
+  }
+  
+  .content-multimedia > .multimedia-content > .multimedia-card > figure > figcaption {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0,0,0,.7);
+    width: 100%;
+  }
+  
+  .content-multimedia > .multimedia-content > .multimedia-card > figure > figcaption > h3 {
+    color: white;
+    padding: .75rem;
+    font-size: 1.25rem;
+  }
+  
+  .content-multimedia > .multimedia-content > .multimedia-card > p {
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: 1rem .75rem;
+    color: #666666;
+  }
+  
+  .content-multimedia > .multimedia-content > .multimedia-card > a {
+    padding: .5rem 1rem;
+    margin: .5rem;
+  }
+  
+  
 
   
     

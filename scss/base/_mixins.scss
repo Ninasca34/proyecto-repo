@@ -12,5 +12,6 @@
 
 .text1, .text2 {
     @include important-text;
+    padding: 28px;
 }
 
