@@ -230,11 +230,29 @@ p {
 
 /* Parte 4: Our Blog */
 
-.content-card {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.content-card {
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
  }
 
@@ -295,7 +313,9 @@ p {
     background-color: rgb(206, 154, 58);
     border-radius: 2rem;
     transform:rotateY(180deg);
- }
+ }*/
+
+
 /* Fin parte 4: Our Blog */
 
 
@@ -438,9 +458,27 @@ p {
     padding: 2rem;
     text-align: center;
     }
+
+    @mixin important-text {
+        color: white;
+        font-size: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    %important-text {
+        color: white;
+        font-size: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .text1, .text2 {
+        @include important-text;
+        margin-top: 3px;
+    }
 }
 
 @media screen and (min-width:768px) and (max-width:900px){
+
     .content-multimedia {
         padding: 2rem;
         height: auto;
