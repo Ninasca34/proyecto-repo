@@ -596,6 +596,7 @@ textarea {
 }
 
 .btn1 {
+  text-decoration: none;
   padding: 16px 15px;
   margin: 20px;
   /* & */
@@ -607,6 +608,7 @@ textarea {
 }
 
 .btn2 {
+  text-decoration: none;
   padding: 15px 30px;
   margin: 30px;
   /* & */
@@ -634,7 +636,8 @@ textarea {
 }
 
 .btn4 {
-  padding: 5px 0;
+  text-decoration: none;
+  padding: 5px 60px;
   margin-bottom: 50px;
   width: 41%;
   /* & */

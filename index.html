@@ -44,7 +44,7 @@
             <!-- Navbar -->
             <nav class="navbar navbar-expand-lg menu menu-header">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand wow animate__animated animate__pulse" data-wow-duration="4s" href="#">
                         <img src="images/resting_homes_svg.svg" alt="logo">
                     </a>
                     <button class="navbar-toggler navbar-light bg-light fixed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -72,7 +72,7 @@
                 </div>
             </nav>     
             <!-- Fin navbar -->
-            <div class="container-title">
+            <div class="container-title wow animate__animated animate__slideInLeft" data-wow-duration="3s">
                 <h1>Minimalist Homes</h1>
                 <h2 class="slogan">Living with less, enjoy your stay</h2>
             </div>
@@ -81,8 +81,8 @@
     <!-- Fin Parte 1 -->
 
     <!-- Parte 2: title and subtitle, images of houses with information -->  
-    <section class="section-container">
-        <h2>Minimalist Home For Rest</h2> 
+    <section class="section-container wow animate__animated animate__fadeIn" data-wow-duration="4s">
+        <h2 class="wow animate__animated animate__fadeInRight" data-wow-duration="3s">Minimalist Home For Rest</h2> 
 
         <div class="container-houses">
             <section class="house-width">
@@ -125,14 +125,14 @@
             </section>
                 <!-- Boton: See All-->
                 <div class="container-btn2">
-                    <button class="btn2" type="button">See All</button>
+                    <a href="houses.html" class="btn2" type="button">See all</a>
                 </div>
         </div>
     </section> 
     <!-- Fin parte 2 -->
 
     <!-- Parte 3: image with phrase and button-->
-    <section class="container-living">
+    <section class="container-living wow animate__animated animate__fadeInRight" data-wow-duration="2s">
         <div class="quote-image">
             <div class="phrase-1">
                 <span> Find The House For Relax </span>
@@ -143,13 +143,13 @@
         </div>
     <!-- Button Contact Us -->
         <div class="container-btn1">
-            <button class="btn1" type="button">Contact Us</button>
+            <a href="contact.html" class="btn1" type="button">Contact Us</a>
         </div>
     </section>
     <!-- Fin parte 3 -->
 
     <!-- Parte 4: video and comments-->
-    <section class="container-multimedia">
+    <section class="container-multimedia wow animate__animate animate__fadeInLeft" data-wow-duration="2s">
         <div class="content-video"> 
             <div class="title1">
                 <h2 class="video-title">Discover more</h2>
@@ -163,8 +163,8 @@
                 </iframe>
             </div>
         </div>
-        
-        <div class="comments-entry wow flipInY"> 
+        </div>
+        <div class="comments-entry"> 
             <div class="card border-primary mb-3 textCard">
                 <div class="card-body text-primary">
                 <h5 class="card-title">Reviews</h5>
@@ -210,7 +210,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
 
     <!--script wow-->
-    <!--<script src="js/wow.min.js"></script>-->
+    <script src="js/wow.min.js"></script>
     <script>new WOW().init();</script>
     <!--end script wow-->
 </body>

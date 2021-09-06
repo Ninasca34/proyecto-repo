@@ -23,6 +23,9 @@
      <!-- Bootstrap -->
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
+    <!-- Animation Link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css" >
 
@@ -34,7 +37,7 @@
         <div class="container-sections">
             <nav class="navbar navbar-expand-lg menu menu-header">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">
+                    <a href="index.html" class="navbar-brand" href="#">
                         <img src="images/resting_homes_svg.svg" alt="logo">
                     </a>
                 <button class="navbar-toggler navbar-light bg-light fixed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -65,13 +68,13 @@
     </header>
     
     <section>
-        <h2 class="contact-us">Contact Us</h2>
+        <h2 class="contact-us wow animate__animated animate__jackInTheBox" data-wow-duration="2s">Contact Us</h2>
         <div class="image-contact"></div>
     </section>
 
     <section>
-        <h2 class="contact-form">Fill out the Contact Form</h2>
-        <form class="fill-form">
+        <h2 class="contact-form wow animate__animated animate__zoomIn" data-wow-duration="2s">Fill out the Contact Form</h2>
+        <form class="fill-form wow animate__animated animate__slideInLeft" data-wow-duration="3s">
             <fieldset>
                 <legend>Personal Information</legend>
 
@@ -122,6 +125,11 @@
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+
+    <!--script wow-->
+    <script src="js/wow.min.js"></script>
+    <script>new WOW().init();</script>
+    <!--end script wow-->
 </body>
 </html>
 

@@ -13,6 +13,7 @@
 }
 
 .btn1 {
+    text-decoration: none;
     padding: 16px 15px;
     margin: 20px;
     @extend %propiedades;
@@ -25,6 +26,7 @@
 }
 
 .btn2 {
+    text-decoration: none;
     padding: 15px 30px;
     margin: 30px;
     @extend %propiedades;
@@ -54,7 +56,8 @@
 }
 
 .btn4 {
-    padding: 5px 0;
+    text-decoration: none;
+    padding: 5px 60px;
     margin-bottom: 50px;
     width: 41%;
     @extend %propiedades;
