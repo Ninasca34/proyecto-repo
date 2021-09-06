@@ -257,7 +257,6 @@ p {
 .card-text {
   color: #a3691e;
   font-weight: bold;
-  font-size: 1.5rem;
 }
 
 .name1 {
@@ -649,7 +648,6 @@ textarea {
   text-decoration: none;
   padding: 5px 60px;
   margin-bottom: 50px;
-  width: 41%;
   /* & */
 }
 .btn4:hover {
