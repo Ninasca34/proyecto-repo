@@ -3,21 +3,28 @@
     padding-top: 30px;
     padding-bottom: 20px;
 }
-.image-blog {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
-.image-blog img {
-    width: 50%;
-}
-
-.text1-blog {
-    font-size: 20px;
-    font-family: "Montserrat", sans-serif;
-    margin: 0;
+.textBlog p {
     padding: 2rem;
-    text-align: center;
+    font-size: 1.3rem;
 }
 
+.imageHouse {
+    width: 100%;
+    margin: 10px 0 30px 0;
+}
+
+@media screen and (min-width:1440px) {
+    .textBlog p {
+        padding: 6rem 2rem 0;
+        font-size: 1.5rem;
+    }
+}
+
+
+@media screen and (width: 768px) {
+    .textBlog p {
+        padding: 3.2rem 2rem 0;
+        font-size: .8rem;
+    }
+}
