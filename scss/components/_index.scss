@@ -455,20 +455,19 @@ p {
         padding-left: 0px;
         padding-bottom: 50px;
     }
- }
+}
 
-    .card-body {
+.card-body {
     padding: 0px;
-    }
+}
 
-    body > footer.row {
+body > footer.row {
 
     --bs-gutter-x: 0rem;
-    }
+}
 
     @media screen and (min-width: 300px) and (max-width: 395px) {
         .navbar-toggler {
             padding: 0;
+        }
     }
-}
-   
