@@ -60,3 +60,16 @@ textarea {
 textarea {
     height: 20rem;
 }
+
+@media screen and (max-width: 768px) {
+
+   .form-container fieldset {
+        width: 70%;
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+    
+    .legend {
+        margin-top: 20px;
+    }
+}
